@@ -1,0 +1,26 @@
+package Theory02;
+
+import java.util.Scanner;
+
+public class Main {
+public static void main(String[] args) {
+	int a;
+	Scanner sc=new Scanner(System.in);
+	char c;
+	int i;
+	for (i=0;i<6;i++) {
+		System.out.println("Enter a grade: ");
+		c=sc.next().charAt(0);
+		if(c=='a'||c=='b'||c=='A'||c=='B')
+			System.out.println("Good job");
+		
+		else if(c=='d'||c=='c'||c=='C'||c=='D')
+			System.out.println("Better luck next time");
+		else if (c=='e'||c=='f'||c=='E'||c=='F')
+		System.out.println("Buy a CNG");
+	}
+	
+	
+	
+}
+}
